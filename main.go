@@ -25,15 +25,15 @@ func main() {
 	fmt.Println()
 
 	// If number is positive
-	if(number > 0) {
-    fmt.Println(number, "is positive")
-  } 
-	// If number is negative  
-  if(number < 0) {
-    fmt.Println(number, "is negative")
-  }
+	if number > 0 {
+		fmt.Println(number, "is positive")
+	}
+	// If number is negative
+	if number < 0 {
+		fmt.Println(number, "is negative")
+	}
 	// If number is 0
-  if(number == 0) {
-    fmt.Println("0 is neither negative nor positive")
-  }
+	if number == 0 {
+		fmt.Println("0 is neither negative nor positive")
+	}
 }
